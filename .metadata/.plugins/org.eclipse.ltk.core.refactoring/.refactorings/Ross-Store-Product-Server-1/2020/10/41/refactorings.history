@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.ross.zuul.controller.service&apos; to &apos;com.ross.zuul.service&apos;&#x0A;- Original project: &apos;Ross-Store-Product-Server-1&apos;&#x0A;- Original element: &apos;Ross-Store-Product-Server-1/src/main/java/com.ross.zuul.controller.service&apos;&#x0A;- Renamed element: &apos;Ross-Store-Product-Server-1/src/main/java/com.ross.zuul.service&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.ross.zuul.controller.service&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ross.zuul.controller.service" name="com.ross.zuul.service" qualified="false" references="true" stamp="1601826006270" textual="false" version="1.0"/>
+</session>

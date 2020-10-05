@@ -1,0 +1,25 @@
+server:
+  port: 0
+spring:
+  application:  
+      name: zuulserver
+  security:
+    user:
+      name: admin
+      password: password
+   
+
+
+
+
+
+
+     
+zuul:
+  routes:
+    product:
+      path: /api/product
+      url: http://localhost:0/ 
+      service-id: product
+      
+      

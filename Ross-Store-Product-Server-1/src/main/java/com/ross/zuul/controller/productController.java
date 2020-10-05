@@ -1,0 +1,26 @@
+package com.ross.zuul.controller;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.netflix.loadbalancer.Server;
+
+@RestController
+@RequestMapping("/api")
+
+public class productController {
+	@Value("${server.port}")
+	private String port;
+	@RequestMapping(value = "/product", method = RequestMethod.GET)
+	public String getProduct() {
+		return "product from port"+port  ;
+		
+		
+	}
+	
+	
+	
+
+}

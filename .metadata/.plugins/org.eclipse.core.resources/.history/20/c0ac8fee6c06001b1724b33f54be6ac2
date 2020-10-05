@@ -1,0 +1,5 @@
+package com.ross.zuul.repository;
+
+public class ProductRepository {
+
+}

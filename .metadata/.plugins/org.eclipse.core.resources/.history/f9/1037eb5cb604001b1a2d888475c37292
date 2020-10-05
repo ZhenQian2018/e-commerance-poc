@@ -1,0 +1,13 @@
+package com.ross.zuul;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class RossStoreProductServer1Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(RossStoreProductServer1Application.class, args);
+	}
+
+}

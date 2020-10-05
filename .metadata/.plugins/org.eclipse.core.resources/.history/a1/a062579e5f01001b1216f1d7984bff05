@@ -1,0 +1,24 @@
+package com.example.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import com.example.demo.model.validationResponse;
+@SpringBootApplication
+public class RossStoreSsoServerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(RossStoreSsoServerApplication.class, args);
+	}
+	@Bean
+	public unAuthorizedRes() {
+		validationResponse response = new validationResponse();
+		response.setError("Unauthorized");
+		response.setMessage("Unauthorized");
+		response.setStatus("401");
+		
+		
+		
+	}
+	
+
+}

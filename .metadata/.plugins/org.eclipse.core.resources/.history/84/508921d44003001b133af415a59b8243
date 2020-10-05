@@ -1,0 +1,21 @@
+package com.example.demo.model;
+
+import ch.qos.logback.core.status.Status;
+
+public class registerResponse {
+	private String status;
+	public String getStatus() {
+		return status;
+	}
+	public void setStatus(String status) {
+		this.status = status;
+	}
+	public String getMessgae() {
+		return messgae;
+	}
+	public void setMessgae(String messgae) {
+		this.messgae = messgae;
+	}
+	private String messgae;
+
+}

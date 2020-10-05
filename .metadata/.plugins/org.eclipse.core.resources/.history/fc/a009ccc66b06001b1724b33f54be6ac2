@@ -1,0 +1,12 @@
+package com.ross.zuul.model;
+
+public class Product {
+	private String id;
+	private String sku;
+	private String name;
+	
+	
+	
+	
+
+}

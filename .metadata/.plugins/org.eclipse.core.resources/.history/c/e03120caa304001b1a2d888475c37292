@@ -1,0 +1,5 @@
+zuul:
+  routes:
+    product:
+	    path:/api/product
+	    url: http://localhost:8082/

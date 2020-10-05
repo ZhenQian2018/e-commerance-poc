@@ -1,0 +1,25 @@
+server:
+  port: 8111
+spring:
+  application:  
+      name: zuulserver
+  security:
+    user:
+      name: admin
+      password: password
+   
+
+
+
+
+
+
+     
+zuul:
+  routes:
+    product:
+      path: /api/product
+      url: http://localhost:59501/ 
+      service-id: product
+      
+      
